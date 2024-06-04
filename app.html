@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: tan;">
+    <h1>Part One: Solidify Terminology</h1>
+    <ul>
+        <li><b>What is HTTP?</b><ul>
+            <li>HTTP stands for Hypertext Transfer Protocol, it is how browsers and servers communicate.</li>
+        </ul></li>
+
+        <li><b>What is URL?</b><ul>
+        <li>URL stands for Universal Resource Locator and it is the address of a source.</li>
+        </ul></li>
+
+        <li><b>What is DNS?</b><ul>
+            <li>DNS stands for Domain Name System and it contains the IP address and hostname of a server like a phonebook</li></ul></li>
+
+        <li><b>What is query string?</b><ul>
+            <li>Query string provides extra information, that  might be used to change a page.</li></ul></li>
+
+        <li><b>What are two HTTP verbs and how are they different?</b><ul>
+            <li>We have GET and POST. GET - gets some data from the server (most pages, search forms) and POST - send some data to the server (pages that change data on server).</li></ul></li>
+
+        <li><b>What is an HTTP request?</b><ul>
+            <li>When you point to webpage on a server your browser first sends a request to the server with the exact URL you want.</li></ul></li>
+        
+        <li><b>What is an HTTP response?</b><ul>
+            <li>After the browser sends a request to the server, the server responses back with the exact HTML text for that page.</li>
+        </ul></li>
+        
+        <li><b>What is an HTTP header? Give a couple examples of request and response headers you have seen.</b><ul>
+            <li>HTTP Header a field of an HTTP request or response that passes additional context and metadata about the request or response.
+                For example, a request message can use headers to indicate it's preferred media formats, while a response can use header to indicate the media format of the returned body.
+            </li>
+        </ul></li>
+
+        <li><b>What are the processes that happen when you type “http://somesite.com/some/page.html” into a browser?</b>
+        <ul>
+            <li>First, the hostname will turn into the IP address. Then, it'll connect to the IP address. Finally, using the HTTP Protocol ask for /some/page.html.</li>
+        </ul></li>
+        </ul>
+
+        <h1>Part Two: Practice Tools</h1>
+        <ol>
+            <li><b>Using curl, make a GET request to the icanhazdadjoke.com API to find all jokes involving the word “pirate”</b>
+            <ul>
+                <li><img src="/1.png" alt="" width="700px"></li>
+            </ul>
+        </li>
+
+            <li><b>Use dig to find what the IP address is for icanhazdadjoke.com</b>
+            <ul>
+                <li><img src="/2.png" alt="" width="400px"></li>
+            </ul>
+        </li>
+
+            <li><b>Make a simple web page and serve it using python3 -m http.server. Visit the page in a browser.</b>
+            <ul>
+                <li><img src="/3.png" alt="" width="700px">
+                </li>
+            </ul></li>
+        </ol>
+</body>
+</html>
